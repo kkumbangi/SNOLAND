@@ -398,7 +398,6 @@ body {
 }
 /* banner start */
 #banner_wrap {
-    width: 1920px;
     height: 840px;
     margin: 0 auto;
     padding-top: 120px;
@@ -668,12 +667,13 @@ body {
 }
 
 /* product start */
-.product_wrap {
-    width: 1920px;
+#product_w_b{
     height: 960px;
+    background-color: #FFF48D;
+}
+.product_wrap {
     margin: 0 auto;
     margin-top: 300px;
-    background-color: #FFF48D;
 }
 
 .product {
@@ -688,7 +688,6 @@ body {
     justify-content: space-between;
     padding-top: 190px;
 }
-
 .product_box img {
     border-radius: 20px;
 }
@@ -773,29 +772,32 @@ body {
 }
 
 /* best product page start */
-#b_p_wrap {
-    min-width: 1920px;
-    width: 1920px;
+#b_p_wrap_box{
     height: 700px;
-    margin: 0 auto;
     background-color: #FFAA4A;
+}
+#b_p_wrap {
+    width: 1320px;
+    margin: 0 auto;
     position: relative;
     margin-bottom: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .b_p_ch {
     position: absolute;
-    top: 150px;
-    left: 300px;
+    top: 200px;
+    left: 0px;
     z-index: 0;
 }
 
 /* b_p_swiper */
 .bp_box {
-    width: 1110px;
+    width: 950px;
     position: absolute;
-    top: 100px;
-    right: 30px;
+    top: 150px;
+    right: 10px;
     overflow: visible;
 }
 
@@ -815,25 +817,30 @@ body {
 
 .mybpSwiper_prev {
     top: 620px !important;
-    left: 1500px !important;
+    left: 880px !important;
     z-index: 1000;
 }
-
+.swiper_slide2 img{
+    border-radius: 20px;
+}
 /* best product hover효과 */
 .bp_text {
-    width: 350px;
-    height: 190px;
+    width: 100%;
+    height: 40%;
     background-color: #0000007e;
     position: absolute;
-    top: 496px;
+    top: 300px;
     left: 0;
-    border-radius: 0 0 50px 50px;
     transition: all 1s;
+    box-sizing: border-box;
+    display: block;
 }
-
 .bp_t_wrap li:hover .bp_text {
-    transform: translateY(-248px);
-    opacity: 1;
+    transform: translateY(-100px);
+
+}
+.bp_t_wrap li{
+    overflow: hidden;
 }
 
 .bp_font1 {
@@ -1083,11 +1090,9 @@ body {
     border: 3px solid #551C81;
     border-radius: 30px;
 }
-
 /* recruit end */
 /* inquiry start */
 #inquiry_wrap {
-    width: 1920px;
     height: 700px;
     margin: 0 auto;
     text-align: center;
@@ -1095,7 +1100,7 @@ body {
 }
 
 .inquiry_text h1 {
-    font-size: 70px;
+    font-size: 50px;
     color: #2E0015;
     padding-top: 100px;
 }
@@ -1183,11 +1188,13 @@ body {
 }
 
 /* inquiry end */
-/* footer */
-.footer_wrap {
-    width: 1920px;
+/* footer start*/
+#footer_wrap_box{
     height: 210px;
     background-color: #2D0414;
+}
+.footer_wrap {
+    width: 1320px;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -1203,6 +1210,7 @@ body {
 
 .cat img {
     animation: star 12s infinite;
+    height: 120px;
 }
 
 @keyframes star {
@@ -1211,7 +1219,7 @@ body {
     }
 
     100% {
-        transform: translateX(1800px);
+        transform: translateX(950px);
     }
 }
 
