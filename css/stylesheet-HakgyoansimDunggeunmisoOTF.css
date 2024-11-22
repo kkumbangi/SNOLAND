@@ -1,0 +1,44 @@
+@font-face {
+    font-family: '';
+    src: url('HakgyoansimDunggeunmisoOTF-B-KO.eot');
+    src: url('HakgyoansimDunggeunmisoOTF-B-KO.eot?#iefix') format('embedded-opentype'),
+        url('HakgyoansimDunggeunmisoOTF-B-KO.woff2') format('woff2'),
+        url('HakgyoansimDunggeunmisoOTF-B-KO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hakgyoansim Dunggeunmiso TTF B';
+    src: url('HakgyoansimDunggeunmisoTTF-B.eot');
+    src: url('HakgyoansimDunggeunmisoTTF-B.eot?#iefix') format('embedded-opentype'),
+        url('HakgyoansimDunggeunmisoTTF-B.woff2') format('woff2'),
+        url('HakgyoansimDunggeunmisoTTF-B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hakgyoansim Dunggeunmiso TTF R';
+    src: url('HakgyoansimDunggeunmisoTTF-R.eot');
+    src: url('HakgyoansimDunggeunmisoTTF-R.eot?#iefix') format('embedded-opentype'),
+        url('HakgyoansimDunggeunmisoTTF-R.woff2') format('woff2'),
+        url('HakgyoansimDunggeunmisoTTF-R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('HakgyoansimDunggeunmisoOTF-R-KO.eot');
+    src: url('HakgyoansimDunggeunmisoOTF-R-KO.eot?#iefix') format('embedded-opentype'),
+        url('HakgyoansimDunggeunmisoOTF-R-KO.woff2') format('woff2'),
+        url('HakgyoansimDunggeunmisoOTF-R-KO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
