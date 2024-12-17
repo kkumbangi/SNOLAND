@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'TmonMonsori';
+    color: #2E0015;
+}
+#wrap_wrap{
+    min-width: 1420px;
+}
+/* header start */
+#wrap {
+    height: 120px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+#header_wrap {
+    min-width: 1320px;
+    width: 1320px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.gnb li {
+    float: left;
+    font-size: 20px;
+    margin-left: 70px;
+    color: #2E0015;
+    margin-top: 50px;
+}
+.gnb li a:hover {
+    color: #F6ACC8;
+}
+
+.gnb_wrap {
+    padding-right: 50px;
+    font-family: 'Hakgyoansim Dunggeunmiso TTF B';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* gnb 효과 start */
+.gnb li {
+    position: relative;
+}
+
+.effect1 {
+    width: 20px;
+    height: 20px;
+    background-color: #d43172;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+}
+
+.effect2 {
+    width: 12px;
+    height: 12px;
+    background-color: #ff7af8;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 80px;
+}
+
+.effect3 {
+    width: 12px;
+    height: 12px;
+    background-color: #8327fc;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.effect4 {
+    width: 15px;
+    height: 15px;
+    background-color: #ff397b;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+}
+
+.effect5 {
+    width: 10px;
+    height: 10px;
+    background-color: #ff6363;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+
+.effect1 {
+    transition: all 1s;
+    opacity: 0;
+}
+
+.effect2 {
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.effect3 {
+    transition: all 2s;
+    opacity: 0;
+}
+
+.effect4 {
+    transition: all 3s;
+    opacity: 0;
+}
+
+.effect5 {
+    transition: all 2s;
+    opacity: 0;
+}
+
+.gnb li:hover .effect1 {
+    opacity: 80%;
+}
+
+.gnb li:hover .effect2 {
+    opacity: 80%;
+}
+
+.gnb li:hover .effect3 {
+    opacity: 80%;
+}
+
+.gnb li:hover .effect4 {
+    opacity: 80%;
+}
+
+.gnb li:hover .effect5 {
+    opacity: 80%;
+}
+
+/* effect2 */
+.effect6 {
+    width: 20px;
+    height: 20px;
+    background-color: #ff73ab;
+    border-radius: 50%;
+    position: absolute;
+    top: -23px;
+    left: 0px;
+}
+
+.effect7 {
+    width: 15px;
+    height: 15px;
+    background-color: #ff7c30;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 80px;
+}
+
+.effect8 {
+    width: 15px;
+    height: 15px;
+    background-color: #fcc327;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+.effect9 {
+    width: 8px;
+    height: 8px;
+    background-color: #ff504a;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+}
+
+.effect10 {
+    width: 12px;
+    height: 12px;
+    background-color: #ff6363;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: -15px;
+}
+
+.effect6 {
+    transition: all 0.8s;
+    opacity: 0;
+}
+
+.effect7 {
+    transition: all 3s;
+    opacity: 0;
+}
+
+.effect8 {
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.effect9 {
+    transition: all 2s;
+    opacity: 0;
+}
+
+.effect10 {
+    transition: all 1s;
+    opacity: 0;
+}
+
+.gnb li:hover .effect6 {
+    opacity: 80%;
+}
+
+.gnb li:hover .effect7 {
+    opacity: 80%;
+}
+
+.gnb li:hover .effect8 {
+    opacity: 80%;
+}
+
+.gnb li:hover .effect9 {
+    opacity: 80%;
+}
+
+.gnb li:hover .effect10 {
+    opacity: 80%;
+}
+
+/* gnb 효과 end */
+.hover_wrap li {
+    float: left;
+    margin-top: 35px;
+    padding-right: 20px;
+}
+
+.image_container {
+    position: relative;
+}
+
+.image {
+    position: relative;
+}
+
+.hover_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* transition: opacity 0.2s ease; */
+}
+
+.image:hover .hover_image1 {
+    opacity: 1;
+}
+
+.image:hover .image1 {
+    opacity: 0;
+}
+
+.image:hover .hover_image2 {
+    opacity: 1;
+}
+
+.image:hover .image2 {
+    opacity: 0;
+}
+
+.image:hover .hover_image3 {
+    opacity: 1;
+}
+
+.image:hover .image3 {
+    opacity: 0;
+}
+/* top button start */
+.top_button img{
+    border-radius: 7px;
+}
+.top_button{
+    position: absolute;
+    top: 840px;
+    right: 26px;
+}
+/* header end */
+#container_wrap{
+    min-width: 1420px;
+    width: 1320px;
+    height: 890px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 300px;
+    margin-top: 100px;
+    background: url(../img/sub2_banner/roding.jpg) no-repeat center;
+}
+
+/* footer start*/
+#footer_wrap_box{
+    height: 210px;
+    background-color: #2D0414;
+}
+.footer_wrap {
+    min-width: 1320px;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat {
+    position: absolute;
+    top: -120px;
+    left: 0;
+    z-index: 9;
+}
+
+.cat img {
+    animation: star 12s infinite;
+    height: 120px;
+}
+
+@keyframes star {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(950px);
+    }
+}
+
+.footer {
+    min-width: 1320px;
+    width: 1320px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer_box line start */
+.footer_t {
+    color: #fff;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.footer_p {
+    font-family: "Freesentation5";
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.footer_p a:hover {
+    color: #FF3333;
+}
+
+.ppc {
+    font-family: "Freesentation5";
+    font-size: 18px;
+    color: #FF3333;
+    padding-right: 10px;
+    border-right: 2px solid #fff;
+}
+
+.pad {
+    padding: 0 10px;
+    border-right: 2px solid #fff;
+}
+
+.pad2 {
+    padding-left: 10px;
+}
+
+.bb {
+    font-family: "Freesentation5";
+    font-size: 18px;
+    color: #fff;
+}
+
+.bb2 {
+    font-family: "Freesentation5";
+    font-size: 18px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.pp2 {
+    font-family: "Freesentation4";
+    font-size: 15px;
+    color: #C1C1C1;
+}
+
+.pp3 {
+    padding-top: 40px;
+    font-family: "Freesentation4";
+    font-size: 12px;
+    color: #C1C1C1;
+}
+
+.sub_logo {
+    padding-top: 120px;
+}
